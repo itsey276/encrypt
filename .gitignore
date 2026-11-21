@@ -8,8 +8,9 @@ __pycache__/
 venv/
 env/
 
-# Local source data (the encrypted .enc file may be committed)
+# Local source data and encrypted files
 data/*.csv
+*.enc
 
 # Environment variables and secrets
 .env
